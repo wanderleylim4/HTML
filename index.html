@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Santader Front-End 2025 - Dio.me</title>
+</head>
+<body>
+<!--Tema-->
+    <hr>
+    <h1><mark><u>INTRODUÇÃO AO HTML</u></mark></h1>
+    <h1>Estrutura e Fundamentos</h1>
+    <hr>
+<!--Índice-->
+    <h2 id="Inicio">Índice</h2>
+        <ol>
+            <li><a href="#Html">O que é HTML</a></li>
+            <li><a href="#Estrutura Basica">Estrutura Básica de um Documento HTML</a></li>
+            <li><a href="#Principais Tags">Principais Tags HTML</a></li>
+            <li><a href="#Elementos Semanticos">Elementos Semânticos no HTML5</a></li>
+            <li><a href="#Atributos">Atributos Comuns</a></li>
+            <li><a href="#Boas Praticas">Boas Práticas na Escrita de HTML</a></li>
+            <Li><a href="#Ref">Referências</a></Li>
+        </ol>
+<!--Título1-->
+    <hr>
+    <h3 id="Html">1. O que é HTML <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+ 
+
+    <p><strong>HTML</strong> significa <strong><u>H</u></strong>yper<strong><u>T</u></strong>ext <strong><u>M</u></strong>arkup <strong><u>L</u></strong>anguage (Linguagem de Marcação de Hipertexto). É a linguagem usada para estruturar e apresentar conteúdo na web. Ele não é uma linguagem de programação, mas sim uma linguagem de marcação que define elementos como títulos, parágrafos, links, imagens, listas, tabelas, formulários, entre outros.</p>
+
+    <h6><blockquote><i>“O HTML é como se fosse o esqueleto de uma página web. Ele fornece a estrutura básica, definindo como os elementos são organizados e exibidos, mas não cuida do visual ou do comportamento dinâmico. É como o alicerce de uma casa, onde os tijolos e a estrutura são definidos.” por IA<sup>1</sup>.</i></blockquote></h6>
+
+
+<!--Título2-->
+    <hr>
+    <h3 id="Estrutura Basica">2.	Estrutura Básica de um Documento HTML <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <p>Todo documento HTML começa com uma estrutura básica que informa ao navegador como interpretar o conteúdo:</p>
+    <img src="https://drive.google.com/thumbnail?id=1OG6LNFXa2kl6wpMRI6b12EfBw0nzitCr" alt="Fig01 -HTML">
+    <h4>Explicação rápida:</h4>
+    <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: Declara que é um documento HTML5.</li>
+        <li><code>&lt;html&gt;</code>: Elemento raiz do documento.</li>
+        <li><code>&lt;head&gt;</code>: Contém metadados, título e links para CSS, scripts etc.</li>
+        <li><code>&lt;body&gt;</code>: Contém o conteúdo visível da página.</li>
+    </ul>
+<!--Título3-->
+    <hr>
+    <h3 id="Principais Tags">3.	Principais Tags HTML <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <p>Algumas das tags mais comuns e suas funções:</p>
+
+    <table border="1" width="350"> 
+        <tr>
+            <td>TAG</td>
+            <td>FUNÇÃO</td>
+        </tr>
+        <Tr>
+            <td><code>&lt;h1&gt; a &lt;h6&gt;</code></td>
+            <td>Títulos do documento</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;p&gt;</code></td>
+            <td>Parágrafo</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;a&gt;</code></td>
+            <td>Hiperlink</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;img&gt;</code></td>
+            <td>Imagem</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;ul&gt;, &lt;ol&gt; e &lt;li&gt;</code></td>
+            <td>Listas</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;table&gt;, &lt;tr&gt; e &lt;td&gt;</code></td>
+            <td>Tabelas</td>
+        </Tr>
+        <Tr>
+            <td><code>&lt;form&gt; e &lt;input&gt;</code></td>
+            <td>Formulários</td>
+        </Tr>
+    </table>
+<!--Título4-->    
+    <hr>
+    <h3 id="Elementos Semanticos">4.	Elementos Semânticos no HTML5 <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <p>O HTML5 trouxe elementos que dão mais significado ao conteúdo:</p>
+    <ul>
+        <li><code>&lt;header&gt;</code> – Cabeçalho de uma seção ou página</li>
+        <li><code>&lt;nav&gt;</code> – Navegação principal</li>
+        <li><code>&lt;main&gt;</code> – Conteúdo principal da página</li>
+        <li><code>&lt;section&gt;</code> – Seções temáticas</li>
+        <li><code>&lt;article&gt;</code> – Conteúdo independente</li>
+        <li><code>&lt;aside&gt;</code> – Conteúdo lateral ou complementar</li>
+        <li><code>&lt;footer&gt;</code> – Rodapé</li>
+    </ul>
+    <p>Esses elementos ajudam na acessibilidade e indexação por mecanismos de busca.</p>
+<!--Título5-->    
+    <hr>
+    <h3 id="Atributos">5.	Atributos Comuns <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <p>Atributos são usados para adicionar informações adicionais às tags. Exemplos:</p>
+    <ul>
+        <li><code>&lt;Id&gt;</code>: Identificador único</li>
+        <li><code>&lt;class&gt;</code>: Classe para aplicar estilos CSS</li>
+        <li><code>&lt;href&gt;</code>: Define o destino de um link (<code>&lt;a&gt;</code>) </li>
+        <li><code>&lt;src&gt;</code>: Caminho de uma imagem (<code>&lt;img&gt;</code>)</li>
+        <li><code>&lt;alt&gt;</code>: Texto alternativo de uma imagem</li>
+        <li><code>&lt;style&gt;</code>: Estiliza diretamente com CSS (evite se possível)</li>
+    </ul>
+    <p><code>&lt;img src="logo.png" alt="Logotipo da empresa" class="imagem-logo"&gt;</code></p>
+<!--Título6-->   
+    <hr>
+    <h3 id="Boas Praticas">6.	Boas Práticas na Escrita de HTML <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <ul>
+        <li>Use semântica sempre que possível.</li>
+        <li>Escreva código limpo e indentado.</li>
+        <li>Evite <del>CSS</del><sub>1</sub> e <del>JavaScript</del><sub>2</sub> diretamente no HTML.</li>
+        <li>Use comentários para explicar trechos importantes: <code>&lt;!-- Este é um comentário --&gt;</code></li>
+        <li>Valide seu código em ferramentas como o Validador do W3C.</li>
+    </ul>
+<!--Referências--> 
+    <hr>
+    <h3 id="Ref">7.	Referências <small><a href="#Inicio"><font face="Arial" size="1">Voltar</font></a></small></h3>
+    <ul>
+        <li>VALLE,  Lucas. Estrutura Básica do HTML5. 11 de Maio de 2022. Disponível https://blog.codapp.com.br/estrutura-basica-do-html5/. Acesso em 01/08/2025</li>
+        <li>CHATGPT<sup>1</sup>, https://chatgpt.com/?model=auto. Acesso 01/08/2025.</li>
+    </ul>
+    <h6><font face="Arial" size="1" color="Blue">LEGENDA</font>
+        <font face="Arial" size="1" color="black" >
+        <p><abbr title="CSS"><i><sub>1</sub></abbr> - Cuida do estilo e apresentação. <br>
+           <abbr title="JavaScript"><sub>2</sub></abbr> - Adiciona interatividade e comportamento. dinâmico</i></p>
+        </font>
+    </h6>
+     
+    <hr>
+    <small><i>Este projeto é do Curso da <a href="https://web.dio.me/home" target="_blank">DIO.me</a></i></small>
+    <hr>
+
+</body>
+</html>
